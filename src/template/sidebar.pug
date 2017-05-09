@@ -1,0 +1,54 @@
+aside.sidebar
+  
+  a(href='#').menu
+  h1.main-title omnigon
+    
+  a(href='#').add-new-vote New vote
+    
+  .votes
+    
+    .draft-votes
+      h3.sidebar-title Draft
+      form(name='new-vote-form' action='/').new-vote-form
+        input(type='file' name='picture' id='upload-picture').vote-picture
+        label(for='upload-picture') +
+        input(type='text' name='description' id='add-description').vote-description
+        label(for='add-description') New vote
+        
+      ul.draft-votes-list
+        li
+          figure
+            img(src='./img/image1.png').vote-picture
+            figcaption.vote-description Serie A Footballer of the Year
+          
+    .active-votes
+      h3.sidebar-title Active
+      ul.active-votes-list
+        li
+          figure
+            img(src='./img/image.png').vote-picture
+            figcaption.vote-description Unleash a Jaguar
+        li
+          figure
+            img(src='./img/image2.png').vote-picture
+            figcaption.vote-description Choose best Wimbledon player and win tickets to the finals
+        li
+          figure
+            img(src='./img/image3.png').vote-picture
+            figcaption.vote-description 2015 Music Moments
+          
+    .closed-votes
+      h3.sidebar-title Closed
+      ul.closed-votes-list
+        li
+          figure
+            img(src='./img/image4.png').vote-picture
+            figcaption.vote-description All time greats
+        li
+          figure
+            img(src='./img/image5.png').vote-picture
+            figcaption.vote-description Insane Dunks
+        li
+          figure
+            img(src='./img/image6.png').vote-picture
+            figcaption.vote-description 2014 Music Moments

@@ -1,0 +1,45 @@
+// variables
+
+$min-width: 1156px;
+$medium-width: 1396px;
+$max-width: 1660px;
+
+$main-content-margin: 32px;
+
+$sidebar-bg-color: #303030;
+$sidebar-btn-bg-color: rgba(255, 255, 255, .95);
+$sidebar-btn-shadow-darker: rgba(0, 0, 0, .4);
+$sidebar-btn-shadow-lighter: rgba(0, 0, 0, .3);
+$sidebar-divider-color: rgba(255, 255, 255, .2);
+
+$main-bg-color-dark-grey: #eee;
+$main-bg-color-light-grey: #fafafa;
+$main-inner-box-bg: rgba(255, 255, 255, .9);
+$main-inner-box-shadow: rgba(0, 0, 0, .05);
+$main-content-divider-color: rgba(0, 0, 0, .1);
+$main-content-add-player-form-bg: rgba(0, 0, 0, .05);
+$main-content-add-player-form-bg-hover: rgba(0, 0, 0, .1);
+$main-content-add-player-form-shadow: rgba(0, 0, 0, .4);
+
+$menu-icon-color: #fff;
+
+$sidebar-font-color: #fff;
+$sidebar-font-color-inverted: rgba(0, 0, 0, .9);
+$sidebar-title-font-color: rgba(255, 255, 255, .9);
+
+$new-vote-form-bg: #ffd840;
+$new-vote-form-label-color: rgba(255, 255, 255, .6);
+$new-vote-form-input-font: #303030;
+
+$main-content-font-color: rgba(0, 0, 0, .9);
+$main-content-menu-color: #303030;
+$main-content-success-msg: #26bf8c;
+
+$custom-checkbox-bg-not-checked: rgba(0, 0, 0, .05);
+$custom-checkbox-bg-checked: #303030;
+$custom-checkbox-bg-not-checked-active: rgba(0, 0, 0, .1);
+$custom-checkbox-bg-checked-active: #ffc620;
+$custom-checkbox-shadow-darker: rgba(0, 0, 0, .2);
+$custom-checkbox-shadow-lighter: rgba(0, 0, 0, .1);
+$custom-checkbox-slider-bg: #fff;
+$custom-checkbox-slider-focused: rgba(255, 216, 64, .6);
