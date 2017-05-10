@@ -524,11 +524,12 @@ body {
         .sidebar .votes .closed-votes-list li figure figcaption.vote-description {
           display: -webkit-flex;
           display: flex;
-          -webkit-flex: 0 1 auto;
-          flex: 0 1 auto;
+          -webkit-flex: 1 1 auto;
+          flex: 1 1 auto;
           align-items: center;
           min-height: 48px;
-          padding: 0 0 10px 16px; }
+          padding: 0 0 10px 16px;
+          width: calc(100% - 96px); }
 
 .main-content {
   -webkit-flex: 1 1 auto;
