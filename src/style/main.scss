@@ -200,7 +200,7 @@ body {
 
           figcaption.vote-description {
             @include display-flex;
-            @include flex(1 1 auto);
+            @include flex(0 1 auto);
             align-items: center;
             min-height: 48px;
             padding: 0 0 10px 16px;
