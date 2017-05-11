@@ -9,9 +9,9 @@ aside.sidebar
     
     .draft-votes
       h3.sidebar-title Draft
-      form(name='new-vote-form' action='/').new-vote-form
+      .new-vote-form
         input(type='file' name='picture' id='upload-picture').vote-picture
-        label(for='upload-picture') +
+        label(for='upload-picture')
         input(type='text' name='description' id='add-description').vote-description
         label(for='add-description') New vote
         
